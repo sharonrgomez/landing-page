@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #282c34;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 91.5%;
+  margin: 2rem auto 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-around;
+  .logo {
+    width: 4.8rem;
+    height: 4.8rem;
+    padding-right: 0.8rem;
+  }
+  .brand__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .subtitle {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  width: 65rem;
+  .versions {
+    .outlined {
+      padding: 1rem 2rem;
+      border: 2px solid white;
+      border-radius: 50px;
+    }
+    .filled {
+      border-radius: 50px;
+      padding: 1rem 2rem;
+      background: linear-gradient(90deg, rgba(255, 110, 78, 1) 0%, rgba(255, 53, 112, 1) 80%);
+    }
+  }
+}
